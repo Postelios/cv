@@ -1,0 +1,100 @@
+:root{
+    --main-bg-color: #ff6a00ad;
+    --bg-color: grey;
+  }
+  p{
+    size: 10px;
+    margin: 0px;
+  }
+    body{
+        height: auto;
+        width: auto;
+        margin: 25px 0px 0px 0px ;
+        display: flex;
+        justify-content: center;
+    }
+
+    h1{
+        margin: 0px;
+    }
+
+    .cv{
+        display: flex;
+        width: 80%;
+    }
+
+    ul {
+        list-style: none;
+        color: white;
+      }
+      
+      ul li:before {
+        content: '✓';
+        color: white;
+      }
+
+      aside{
+        display: flex;
+        flex-direction: column;
+        background-color: var(--main-bg-color);
+        width: 35%;
+      }
+      .aside-top{
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid black;
+      }
+      .photo{
+        height: 130px;
+        width: 65%;
+        background-color: blueviolet;
+        margin-top: 20px;
+      }
+
+      .mid-title{
+        background-color: var(--main-bg-color);
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+
+      aside > * {
+        color: white;
+      }
+
+
+      .body{
+        width: 65%;
+      }
+
+      .body > p, .intro{
+        color: black;
+      }
+      
+      i{
+        color: black;
+        align-self: center;
+      }
+
+      h1,h2,h3,h4,h5{
+        color: white;
+      }
+
+      .title{
+        background-color: var(--bg-color);
+      }
+      .aside-down > div {
+        display: flex;
+      }
+
+      .strong{
+        font-weight: bold;
+      }
+      .aside_end{
+        display: flex;
+        flex-direction: column;
+      }
