@@ -72,6 +72,10 @@
         width: 65%;
       }
 
+      .body{
+        width: 90%
+      }
+
       .body > p, .intro{
         color: black;
       }
